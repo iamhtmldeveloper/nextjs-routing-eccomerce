@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header,
+.container {
+  @apply w-full p-8;
+}
+header nav,
+header nav ul {
+  @apply flex justify-between;
+}
+header nav ul {
+  @apply gap-7;
+}
+
+.lists {
+  @apply flex gap-8;
+}
+a.btn {
+  @apply bg-slate-700 text-[#fff] py-2 px-6 inline-block mt-8;
+}
